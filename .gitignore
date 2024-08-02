@@ -1,0 +1,72 @@
+# Ignora arquivos e diretórios comuns de projetos Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# Ignora os diretórios de ambiente virtual
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.ENV/
+
+# Ignora arquivos de configuração e de dados sensíveis
+*.env
+*.local
+*.config
+
+# Ignora arquivos de banco de dados SQLite
+db.sqlite3
+
+# Ignora diretórios de migrações que não devem ser versionados
+**/migrations/*
+
+# Ignora diretórios de cache do Django
+**/staticfiles/
+**/media/
+
+# Ignora logs
+*.log
+
+# Ignora arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos Excel
+*.xlsx
+
+# Ignora arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ignora arquivos do IDE
+.vscode/
+.idea/
+
+# Ignora arquivos de test coverage e pytest
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ignora arquivos de documentação
+*.rst
+*.md
+
+# Ignora arquivos e diretórios de distribuição
+MANIFEST
+
+# Ignora arquivos do navegador
+*.html
+*.css
+*.js
+
+# Ignora arquivos de configurações específicas
+local_settings.py
